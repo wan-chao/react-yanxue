@@ -1,0 +1,40 @@
+.menu_list{
+  min-width: 1600px;
+  display: flex;
+  margin-top: 30px;
+  &>li{
+    flex: none;
+    position: relative;
+    width: 216px;
+    height: 108px;
+    margin-right: 14px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+    span{
+      position: absolute;
+      top: 40px;
+      right: 25px;
+    }
+  }
+  &>:nth-last-child(1){
+    margin-right: 0px;
+  }
+  .menu_img{
+    position: absolute;
+    left: 0;
+  }
+}
+.content{
+  min-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  .content_left{
+    width: 60%;
+  }
+  .content_right{
+    width: 36%;
+  }
+}

@@ -1,0 +1,29 @@
+.content_top{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  margin: 20px 0;
+  padding: 0 20px;
+  background: #fff;
+  box-shadow: 0 0 2px #ddd;
+  .top_input{
+    width: 200px;
+    margin-left: 20px;
+  }
+}
+.content_mid{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  .mid_card{
+    width: calc((100% - 3%)/4);
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #ddd;
+    margin-top: 20px;
+  }
+  .mid_cardEnd{
+    margin-right: 1%;
+  }
+}
